@@ -34,14 +34,6 @@ function Feed() {
         setPosts((prevPosts) => [...prevPosts, comment, comment2, comment3])
     }, [])
     
-    
-    /* 
-    useEffect(() => {
-        setPosts((prevPosts) => [...prevPosts, comment, comment2, comment3])
-    }, [comment, comment2, comment3]); */ 
-
-    console.log(posts)
-    
     return (
         <div className = "feed">
             <div className = "feed__header">
