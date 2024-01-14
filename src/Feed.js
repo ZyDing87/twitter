@@ -30,13 +30,15 @@ function Feed() {
     text :'Are you subscribed to our mailing list?👀 Our #emails include crucial information about our solutions and the #digitalsignage industry, making this a truly valuable tool to help your business grow!',
     image : "https://pbs.twimg.com/media/GC7IJW_WkAAYu8f?format=jpg&name=large",
     avatar : "https://pbs.twimg.com/profile_images/1720020150613651456/KMq5JBTI_400x400.jpg", }
-    
-/*     useEffect(() => {
-        setPosts((prevPosts) => [...prevPosts, comment, comment2, comment3])
-    }, []) */
     useEffect(() => {
         setPosts((prevPosts) => [...prevPosts, comment, comment2, comment3])
-    }, [comment, comment2, comment3]);
+    }, [])
+    
+    
+    /* 
+    useEffect(() => {
+        setPosts((prevPosts) => [...prevPosts, comment, comment2, comment3])
+    }, [comment, comment2, comment3]); */ 
 
     console.log(posts)
     
