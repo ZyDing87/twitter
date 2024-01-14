@@ -1,0 +1,65 @@
+.widgets {
+  flex: 0.3;
+}
+
+.widgets__input {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.widgets__input > input {
+  border: none;
+  background-color: var(--twitter-background);
+  outline: none;
+}
+
+.widgets__searchIcon {
+  color: gray;
+}
+
+.widgets__widgetContainer {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.widgets__widgetContainer > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.widgets__widgetSecondContainer {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f5f8fa;
+  border-radius: 20px;
+}
+
+.widgets__widgetSecondContainer > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+.widgets__widgetSecondContainer > h3 {
+  margin-top : 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.widgets__tweet {
+  background-color: black !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  height: 40px !important;
+  margin-top: 10px !important;
+  width: 110px;
+}
