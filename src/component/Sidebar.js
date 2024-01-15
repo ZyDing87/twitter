@@ -20,11 +20,11 @@ function Sidebar() {
               className = "sidebar__XIcon"                
            /> 
 
-           <SidebarOption active
+           <SidebarOption active= {true}
               Icon = {HomeIcon}
               text = "Home"  
            />
-           <SidebarOption 
+           <SidebarOption
               Icon = {SearchIcon}
               text = "Explore"  
            />

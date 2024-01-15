@@ -1,12 +1,12 @@
 import React from 'react'
 import '../css/Widgets.css'
+import {tweetIdNumber,userName} from '../stats/widgets.js'
 import {
     TwitterTimelineEmbed,
     TwitterTweetEmbed
 } from 'react-twitter-embed'
 import SearchIcon from '@mui/icons-material/Search'
 import { Button } from '@mui/material'
-import {tweetIdNumber,userName} from '../stats/widgets'
 
 function Widgets() {
     return (

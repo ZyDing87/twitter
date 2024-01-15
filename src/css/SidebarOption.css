@@ -23,4 +23,5 @@
 
 .sidebarOption--active {
   color: rgb(15, 20, 25);
+  text-shadow: 1px 1px 0px #000;
 }
